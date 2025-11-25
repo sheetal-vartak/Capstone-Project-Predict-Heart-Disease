@@ -16,12 +16,14 @@ https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction/data
 
 ## Techniques to be used
 * LogisticRegression
+* LR L1 (Lasso)
+* LR L2 (Ridge)
 * Random Forest
 * SVM
  
 
 ## Expected Results
-The expectation is to detect heart disease as accurately as possible.
+The expectation is to find the features that negatively and positively affect the probability of Heart Disease as well as detect heart disease as accurately as possible.
 
  
 
