@@ -113,5 +113,4 @@ Cardiovascular Disease prediction project summary
 https://github.com/sheetal-vartak/Capstone-Project-Predict-Heart-Disease/blob/b7b13e8be126cddd5ce0a29752d95255438d0678/cardiovascular_disease_prediction.ipynb
 
 
-##### Contact and Further Information
 
