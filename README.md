@@ -1,33 +1,17 @@
-# Capstone Project Predict Heart Disease
+### Capstone Project : Heart Disease Prediction
 
-## Project Description
+**Author** 
+
+Sheetal Vartak
+
+#### Executive summary
+
 Cardiovascular diseases (CVDs) are the number 1 cause of death globally, taking an estimated 17.9 million lives each year, which accounts for 31% of all deaths worldwide. Four out of 5 CVD deaths are due to heart attacks and strokes, and one-third of these deaths occur prematurely in people under 70 years of age. Heart failure is a common event caused by CVDs and this dataset contains 11 features that can be used to predict a possible heart disease.
 
 People with cardiovascular disease or who are at high cardiovascular risk (due to the presence of one or more risk factors such as hypertension, diabetes, hyperlipidaemia or already established disease) need early detection and management wherein a machine learning model can be of great help.
 
-(source - https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction/data)
+#### Rationale
 
- 
-
-## Data Source
-https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction/data
-
- 
-
-## Techniques to be used
-* LogisticRegression
-* LR L1 (Lasso)
-* LR L2 (Ridge)
-* Random Forest
-* SVM
- 
-
-## Expected Results
-The expectation is to find the features that negatively and positively affect the probability of Heart Disease as well as detect heart disease as accurately as possible.
-
- 
-
-## Why is this important
 Currently, the treatments and detection are all reactive. 
 
 * Patients are treated AFTER the heart attacks occur
@@ -46,9 +30,29 @@ Issues related to undetected heart disease :
   
 All of the above can be avoided if we can detect heart disease sooner.
 
-## Cardiovascular Disease prediction project summary
+#### Research Question
 
-### ✅ Deliverables completed:
+Predict if a person has Heart Disease or not. The expectation is to find the features that negatively and positively affect the probability of Heart Disease as well as detect heart disease as accurately as possible.
+
+#### Data Sources
+
+(source - https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction/data)
+
+#### Methodology
+
+This is a Classification problem. I will use the following techniques:
+* LogisticRegression
+* LR L1 (Lasso)
+* LR L2 (Ridge)
+* Random Forest
+* SVM
+
+
+#### Results
+
+Cardiovascular Disease prediction project summary
+
+✅ Deliverables completed:
 
 1. Data Analysis and exploration
    * Comprehensive EDA with 918 patient records
@@ -85,24 +89,29 @@ All of the above can be avoided if we can detect heart disease sooner.
    * Random Forest and SVM comparison
    * Best model: Random Forest (AUC: 0.923)
 
-### 🏥 Clinical applications:
+🏥 Clinical applications:
 
 * Early detection screening tool
 * Risk stratification for preventive care
 * Decision support for healthcare providers
 * Population health management
 
-### 📊 Key Insights:
+📊 Key Insights:
 * Model can reliably identify high-risk patients
 * ST Slope and Chest Pain Type are strongest predictors
 * Exercise-induced symptoms highly predictive
 * Age and sex remain significant factors
 
-### 🔬 Future Enhancements:
+🔬 Future Enhancements:
 * Collect additional lifestyle factors
 * Implement ensemble methods
 * Deploy as web application
 * Continuous model monitoring and updates
 
 
+#### Outline of project
+https://github.com/sheetal-vartak/Capstone-Project-Predict-Heart-Disease/blob/b7b13e8be126cddd5ce0a29752d95255438d0678/cardiovascular_disease_prediction.ipynb
+
+
+##### Contact and Further Information
 
